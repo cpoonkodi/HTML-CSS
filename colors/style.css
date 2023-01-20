@@ -1,0 +1,22 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color:brown;
+  text-align: center;
+}
+
+h2 {
+  color:rgba(200, 230, 28)
+}
+
+h3 {
+  color:hsl(400,50%,50%)
+}
+
+h4 {
+  color:#f29199;
+}
