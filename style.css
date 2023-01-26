@@ -221,10 +221,29 @@ textarea {
 }
 
 /* Projects page styles */
+.title {
+  text-align: center;
+  margin-top: 20px;
+}
+.navLinks {
+  text-align: center;
+  padding-top:50px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color:#3882F6;
+  font-size: 20px;
+}
+
+.navLinks a:hover, table a:hover {
+  font-weight: 900;
+}
+
 .projects-main {
   display:flex;
   flex-wrap: wrap;
-  margin: 8%;
+  margin: 2% 8%;
 }
 
 .project {
@@ -232,12 +251,18 @@ textarea {
   height:400px;
   width:300px;
   margin:20px;
- /* margin: 10% 25%;
-  padding: 8px 30px; */
+  overflow: hidden;
 }
 
 .project img {
   object-fit: cover;
   width:100%;
   height:100%;
+  overflow: hidden;
+  transition: transform .2s ease;
+}
+
+.project img:hover {
+  object-fit: cover;
+  transform: scale(1.1); 
 }
